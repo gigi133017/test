@@ -15,4 +15,5 @@
 
 hello <- function() {
   print("Hello, world!")
+  print("My name is Valentin")
 }
