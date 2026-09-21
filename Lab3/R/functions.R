@@ -1,6 +1,12 @@
 #name
 #liu-id
-
+#' euclidean
+#'
+#'This function implements euclidean
+#'
+#' @param a integer scalar
+#' @param b integer scalar
+#' @export
 euclidean <- function(a, b){
     stopifnot(is.numeric(a), is.numeric(b), a%%1 == 0, b%%1 == 0, length(a)==1, length(b)==1)
 
@@ -22,8 +28,15 @@ euclidean <- function(a, b){
     return(smaller)
 }
 
+#' dijkstra
+#'
+#'This function implements dijkstra
+#'
+#' @param graph data_frame with three colums
+#' @param init_node node from whitch we want to calculate the distancies
+#' @export
 dijkstra <- function(graph, init_node){
-    stopifnot(is.data.frame(graph), names(graph)==c("v1","v2","w"), init_node%%1==0, is.numeric(init_node), 
+    stopifnot(is.data.frame(graph), names(graph)==c("v1","v2","w"), init_node%%1==0, is.numeric(init_node),
               length(init_node)==1, init_node %in% append(wiki_graph[[1]], wiki_graph[[2]]) )
 
 
