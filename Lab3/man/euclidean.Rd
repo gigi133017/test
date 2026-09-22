@@ -11,6 +11,14 @@ euclidean(a, b)
 
 \item{b}{integer scalar}
 }
+\value{
+integer scalar
+}
 \description{
-This function implements euclidean
+This function implements euclidean algorithm to calculate the MCD of two given numbers (a, b).
+This function iteratively calculates the remainder of the whole division between the previous two remainders.
+The output is the last non-zero remainder
+}
+\references{
+https://en.wikipedia.org/wiki/Euclidean_algorithm
 }

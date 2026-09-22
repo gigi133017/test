@@ -2,15 +2,22 @@
 % Please edit documentation in R/functions.R
 \name{dijkstra}
 \alias{dijkstra}
-\title{dijkstra}
+\title{Dijkstra}
 \usage{
 dijkstra(graph, init_node)
 }
 \arguments{
-\item{graph}{data_frame with three colums}
+\item{graph}{data_frame with three columns v1, v2, w. The three columns describe the nodes of an edge and its weight}
 
-\item{init_node}{node from whitch we want to calculate the distancies}
+\item{init_node}{node from which we want to calculate the distances from}
+}
+\value{
+vector of dimension of the number of nodes in the graph
 }
 \description{
-This function implements dijkstra
+This function implements Dijkstra algorithm finding the shortest path between two nodes in a graph.
+For each node in the graph, the function updates the distances vector if it finds a new shortest path to its connected nodes.
+}
+\references{
+https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
 }
