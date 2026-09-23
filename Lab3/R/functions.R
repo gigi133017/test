@@ -1,8 +1,8 @@
 #name
 #liu-id
-#' euclidean
+#' Euclidean algorithm for GCD
 #'
-#'This function implements euclidean algorithm to calculate the MCD of two given numbers (a, b).
+#'This function implements euclidean algorithm to calculate the GCD of two given numbers (a, b).
 #'This function iteratively calculates the remainder of the whole division between the previous two remainders.
 #'The output is the last non-zero remainder
 #'
@@ -32,9 +32,9 @@ euclidean <- function(a, b){
     return(abs(smaller))
 }
 
-#' Dijkstra
+#' Dijkstra's algorithm for minimum distances in a graph.
 #'
-#'This function implements Dijkstra algorithm finding the shortest path between two nodes in a graph.
+#'This function implements Dijkstra's algorithm finding the shortest path between two nodes in a graph.
 #'For each node in the graph, the function updates the distances vector if it finds a new shortest path to its connected nodes.
 #'
 #' @param graph data_frame with three columns v1, v2, w. The three columns describe the nodes of an edge and its weight

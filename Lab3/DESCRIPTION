@@ -1,16 +1,11 @@
 Package: Lab3
 Type: Package
 Title: What the Package Does (Title Case)
-Version: 0.1.0
+Version: 0.9.0
 Authors@R: c(
-    person(
-      "Jane", "Doe",
-      email = "jane@example.com",
-      role = c("aut", "cre")
-    )
+    "Giulio Collazuol", "Valentin Rapetti"
   )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
+Description: Implements the Euclidean algorithm for GCD and the Dijkstra's algorithm for minimum distances in a graph.
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
