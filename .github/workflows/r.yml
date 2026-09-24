@@ -23,7 +23,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        r-version: ['3.6.3', '4.1.1']
+        #r-version: ['3.6.3', '4.1.1']
+        r-version: ['4.6.1']
 
     steps:
       - uses: actions/checkout@v6
