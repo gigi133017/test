@@ -1,0 +1,17 @@
+Package: Lab3
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 1.0.0
+Authors@R: c(
+    person(given="Giulio", family="Collazuol", email="giuco986@student.liu.se",role = c("aut", "cre")), person("Valentin", "Rapetti", "marra415@student.liu.se",role = c("aut"))
+  )
+Description: Implements the Euclidean algorithm for GCD and the Dijkstra's algorithm for minimum distances in a graph.
+License: `use_mit_license()`
+Encoding: UTF-8
+LazyData: true
+Config/roxygen2/version: 8.1.0
+Depends: 
+    R (>= 3.5)
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
